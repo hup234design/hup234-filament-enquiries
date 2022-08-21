@@ -25,7 +25,7 @@
   "require-dev": {},
   "autoload": {
     "psr-4": {
-      "Hup234design\\Hup234Cms\\": "src"
+      "Hup234design\\Hup234FilamentEnquiries\\": "src"
     }
   },
   "autoload-dev": {
