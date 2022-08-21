@@ -38,10 +38,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Hup234design\\Hup234FilamentEnquries\\Hup234FilamentEnquriesServiceProvider"
+        "Hup234design\\Hup234FilamentEnquiries\\Hup234FilamentEnquiriesServiceProvider"
       ],
       "aliases": {
-        "Hup234Cms": "Hup234design\\Hup234FilamentEnquries\\Hup234FilamentEnquriesFacade"
+        "Hup234Cms": "Hup234design\\Hup234FilamentEnquiries\\Hup234FilamentEnquiriesFacade"
       }
     }
   },
