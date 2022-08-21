@@ -1,5 +1,3 @@
-
-
 <?php
 
 namespace Hup234design\Hup234FilamentEnquiries\Commands;
