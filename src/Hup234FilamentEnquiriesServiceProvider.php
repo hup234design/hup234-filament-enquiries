@@ -8,7 +8,7 @@ use Spatie\LaravelPackageTools\Package;
 
 class Hup234FilamentEnquiriesServiceProvider extends PluginServiceProvider
 {
-    public static string $name = 'hup234-cms';
+    public static string $name = 'hup234-filament-enquiries';
 
     public function configurePackage(Package $package): void
     {
