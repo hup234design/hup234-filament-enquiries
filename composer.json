@@ -1,0 +1,53 @@
+{
+  "name": "hup234design/hup234-filament-enquries",
+  "description": "Filament plugin to manage enquiry/contact forms",
+  "keywords": [
+    "hup234design",
+    "hup234-filament-enquiries",
+    "laravel",
+    "filament"
+  ],
+  "homepage": "https://hup234design.co.uk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dave Walker",
+      "email": "dave@hup234design.co.uk",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^8.0 || ^9.0",
+    "filament/filament": "^2.13",
+    "archtechx/laravel-seo": "^0.4.0"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "Hup234design\\Hup234Cms\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {}
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Hup234design\\Hup234FilamentEnquries\\Hup234FilamentEnquriesServiceProvider"
+      ],
+      "aliases": {
+        "Hup234Cms": "Hup234design\\Hup234FilamentEnquries\\Hup234FilamentEnquriesFacade"
+      }
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
