@@ -41,7 +41,7 @@
         "Hup234design\\Hup234FilamentEnquiries\\Hup234FilamentEnquiriesServiceProvider"
       ],
       "aliases": {
-        "Hup234Cms": "Hup234design\\Hup234FilamentEnquiries\\Facades\\Hup234FilamentEnquiries"
+        "Hup234FilamentEnquiries": "Hup234design\\Hup234FilamentEnquiries\\Facades\\Hup234FilamentEnquiries"
       }
     }
   },

@@ -31,9 +31,9 @@ class PublishCommand extends Command
         $this->callSilent('vendor:publish', ['--tag' => 'hup234-filament-enquiries-migrations', '--force' => $this->option('force') ?? false]);
         $this->callSilent('vendor:publish', ['--tag' => 'hup234-filament-enquiries-views', '--force' => $this->option('force') ?? false]);
 
-        //$this->callSilent('vendor:publish', ['--tag' => 'hup234-cms-translations', '--force' => $this->option('force') ?? false]);
-        //$this->callSilent('vendor:publish', ['--tag' => 'hup234-cms-seeder', '--force' => $this->option('force') ?? false]);
-        //$this->callSilent('vendor:publish', ['--tag' => 'hup234-cms-factories', '--force' => $this->option('force') ?? false]);
+        //$this->callSilent('vendor:publish', ['--tag' => 'hup234-filament-enquiries-translations', '--force' => $this->option('force') ?? false]);
+        //$this->callSilent('vendor:publish', ['--tag' => 'hup234-filament-enquiries-seeder', '--force' => $this->option('force') ?? false]);
+        //$this->callSilent('vendor:publish', ['--tag' => 'hup234-filament-enquiries-factories', '--force' => $this->option('force') ?? false]);
 
         $this->output->success('HUP234 Filament Enquiries has been Published successfully');
     }
